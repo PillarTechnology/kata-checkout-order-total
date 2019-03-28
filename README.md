@@ -10,7 +10,7 @@ Each week, some items are marked down. For example, the soup could be marked dow
 
 Along with the markdowns, a set of specials are advertised each week. For example, the soup could be advertised as "buy one, get one free" or "buy two, get one half off" or "three cans for $5.00." Sometimes limits are placed on these specials. For example, "Buy two, get one free. Limit 6." Purchases not fitting the description of the special are sold at the eaches price unless a markdown price has also been advertised.
 ## Requirements
-* Your solution should have an API to configure the above kinds of prices, specials and markdowns. Instead of UPC or SKU codes, you may simply use strings such as "ground beef" or "soup" to describe what has been scanned or entered.
+* Your solution should have an API to configure the above kinds of prices, specials and markdowns. Instead of UPC or SKU codes, you may simply use strings such as "ground beef" or "soup" to describe what has been scanned or entered. **NOTE:** The term "API" simply refers to a collection of logical function calls exposed by your application. It does not necessarily imply something like a REST API.
 * It should repeatedly accept a scanned item or item and weight through an API call. It must keep an accurate current total through the process.
 * Clerks make mistakes. They need to be able to remove items from an order, immediately correcting the current total.
 * You are not responsible for the display system or printing a receipt; only calculating the pre-tax total. The display system or receipt may query your code for the total.
