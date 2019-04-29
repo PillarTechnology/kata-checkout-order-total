@@ -23,5 +23,5 @@ Along with the markdowns, a set of specials are advertised each week. For exampl
 5. Support a special in the form of "N for $X." For example, "3 for $5.00"
 6. Support a limit on specials, for example, "buy 2 get 1 free, limit 6" would prevent getting a third free item.
 7. Support removing a scanned item, keeping the total correct after possibly invalidating a special.
-8. Support "Buy N, get M of equal or lesser value for %X off" on weighted items.
+8. Support "Buy N, get M of equal or lesser value for %X off" on weighted items. For example, "Buy 2 pounds of ground beef, get 1 pound half off."
 
